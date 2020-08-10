@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{64E2F6C6-1576-AED7-02C5-6D94F5E99C09}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MovementService.cs">
+    <Files>
+      <File FileName="Assets/MovementService.cs" Line="44" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Runner" expanded="True" selected="True">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e06ed4a-231d-4816-937b-41007a2f1e53" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/a.radaikin/Runner/Assets/MovementService.cs" relfile="Assets/MovementService.cs" line="45" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
