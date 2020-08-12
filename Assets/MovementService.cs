@@ -4,9 +4,9 @@ public class MovementService : MonoBehaviour
 {
     private Rigidbody rb;
 
-    private Vector3 sideForce = new Vector3(0.0f, 0.0f, 0.1f);
-    private Vector3 forwardForce = new Vector3(300f, 0.0f, 0.0f);
-    private Vector3 jumpForce = new Vector3(0.0f, 4f, 0.0f);
+    private Vector3 sideForce = new Vector3(0.0f, 0.0f, 0.35f);
+    private Vector3 forwardForce = new Vector3(1000f, 0.0f, 0.0f);
+    private Vector3 jumpForce = new Vector3(0.0f, 500f, 0.0f);
 
     private bool isGrounded = true;
 
@@ -31,12 +31,12 @@ public class MovementService : MonoBehaviour
 
         if (Input.GetKey("d"))
         {
-            rb.AddForce(-sideForce, ForceMode.VelocityChange);
+            rb.AddForce(-sideForce, ForceMode.VelocityChange); 
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(jumpForce, ForceMode.VelocityChange);
+            rb.AddForce(jumpForce * Time.fixedDeltaTime, ForceMode.Impulse);
             isGrounded = false;
         }
     }
